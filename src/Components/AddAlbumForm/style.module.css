@@ -1,0 +1,45 @@
+.addAlbumFormContainer{
+    width: 500px;
+    height: 250px;
+    box-shadow: 0px 0px 4px 0px black;
+    margin: 50px auto;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.heading{
+    text-align: center;
+    margin: 0;
+}
+
+.form{
+    width: 90%;
+    margin: auto;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form div label{
+    width: 70px;
+    display: inline-block;
+}
+
+.form div input{
+   border: 0px;
+   border-bottom: 2px solid rgb(133, 132, 132);
+   width: 75%;
+}
+
+.form button{
+    width: 150px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0px auto;
+    color: white;
+    background-color: #282892e3;
+    border: 0px;
+}
+
+

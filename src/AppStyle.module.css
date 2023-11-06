@@ -1,0 +1,19 @@
+.addAlbumFormContainer{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.showAddAlbumBtn{
+    width: 150px;
+    height: 40px;
+    border-radius:5px;
+    color: green;
+    border-color: green;
+    font-weight: bold;
+}
+
+.showAddAlbumBtn:hover{
+    border-color: white;
+    color: white;
+    background-color: green;
+}
