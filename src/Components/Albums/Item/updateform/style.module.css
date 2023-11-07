@@ -1,0 +1,50 @@
+.Form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: space-evenly;
+    position: absolute;
+    background-color: #87ba91;
+    top: 6%;
+    left: 40%;
+}
+
+.input{
+    width: 80%;
+    margin: 3px auto;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 3px;
+    border-style: dotted;
+    border-color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.submit{
+    color: white;
+    border: 2px solid white;
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    background-color: transparent;
+    border-radius:5px ;
+}
+
+.submit:hover{
+    background-color: white;
+    color: green;
+}
+
+.close{
+    position: absolute;
+    top: 6%;
+    left: 56%;
+    z-index: 2;
+    color: red;
+    cursor: pointer;
+}
