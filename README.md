@@ -1,16 +1,18 @@
 # Albums list React app
 > This Application Perform Various Task 
-- Fetch Albums from Server
+- Fetch Albums from the Server
 - Add new album 
 - update album
 - delete album
 
 > [!IMPORTANT]
-> These All Request Are Fake and not actually manipulating Server
+> These All Request Are Fake and not manipulating the Server
 
 ### Logic Code
 > App.js File contains all the logic code
-> component folder contain's Design of application and some design manipulation logics
+> 
+### Design
+> component folder contains the Design of the application and some design manipulation logic
 
 ### Used Tool
 - React
@@ -31,7 +33,7 @@
   }, []);
 ```
 
-> this code let as fetch data from api
+> This code let us fetch data from API
 
 ### Post request code
 ```js
@@ -53,7 +55,7 @@ function handleAddAlbum(title, userId) {
       .catch(err=>console.log(err))
   }
 ```
-> This code is used to add new album on server
+> This code is used to add new album on the server
 
 ```js
 const handleDeleteAlbum = (Id) => {
@@ -70,7 +72,7 @@ const handleDeleteAlbum = (Id) => {
     setAlbums(newArray);
   };
 ```
->Deleting Album from server
+>Deleting Album from the server
 
 ```js
  function handleUpdateAlbum(id, updatedUserId, updatedTitle) {
@@ -104,5 +106,5 @@ const handleDeleteAlbum = (Id) => {
 
 
 > [!IMPORTANT]
-> Please Note that these request are fake and only used for learning purpose they are having no effect on server
+> Please Note that these requests are fake and only used for learning purposes they have no effect on the server
 
